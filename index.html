@@ -20,15 +20,25 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body class="yellow lighten-1">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <div class="container">
-            <img src="img/splash_title.png" id="appTitle">
-            <input type="text">
-            <a class="waves-effect waves-light btn-large">Enter</a>
+            <div class="row center-align">
+                <img src="img/splash_title.png" id="appLogo" class="center-align">    
+            </div>
+            <div class="row center-align">
+                <div class="input-field col s4 push-s4">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Please enter your name</label>
+                </div>    
+            </div>
+            <div class="row center-align">
+                <a href="main_menu.html" class="waves-effect waves-light btn-large">Enter</a>    
+            </div>
+            
         </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
