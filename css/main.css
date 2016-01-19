@@ -108,6 +108,10 @@ input#name {
 
 /* ----------------- MAIN PAGE -----------------*/
 
+#mainMenu_container {
+    padding-top: 50px;
+}
+
 #mainMenu img {
     padding: 30px;
     cursor: pointer;
