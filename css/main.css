@@ -96,6 +96,7 @@ textarea {
    ========================================================================== */
 
 /* ----------------- LOGIN -----------------*/
+
 #appLogo {
     margin-top: 50px;
     margin-left: auto;
@@ -108,15 +109,32 @@ input#name {
 
 /* ----------------- MAIN PAGE -----------------*/
 
-#mainMenu_container {
+#greeting {
     padding-top: 50px;
+    font-size: 45px;
+    color: #424242;
 }
 
-#mainMenu img {
+#user {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#exit-btn {
+    margin-top: 24px;
+}
+
+/* ----------------- GENERAL -----------------*/
+
+#buttonMenu img {
     padding: 30px;
     cursor: pointer;
+    transition: all ease 0.2s;
 }
 
+#buttonMenu img:hover {
+    transform: scale(1.1, 1.1);
+}
 
 
 
