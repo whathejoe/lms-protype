@@ -130,9 +130,20 @@ input#name {
 
 /* ----------------- TOPICS -----------------*/
 
+.topics {
+    width: 100%;
+    background: url(../img/bg_blackboard.jpg) left top;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+
 #topics-title {
     margin-bottom: -30px;
 }
+
 
 /* ----------------- GENERAL -----------------*/
 
