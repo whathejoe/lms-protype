@@ -192,6 +192,13 @@ footer img {
     margin-bottom: 14px;
 }
 
+.lessons li{
+    transition: all ease 0.2s;
+}
+
+.lessons li:hover {
+    transform: translate(20px);
+}
 
 /* ----------------- GENERAL -----------------*/
 
