@@ -5,4 +5,13 @@ $(function() {
 		setTimeout(function() {window.location = href}, 750);
 		return false;
 	});
+
+	var animationName = 'animated bounce';
+	var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+	$('.mc-answer').mouseenter( function() {
+		$(this).addClass(animationName).one(animationEnd, function() {
+			$(this).removeClass(animationName);
+		});
+	});
 });
