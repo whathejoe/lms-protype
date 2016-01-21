@@ -15,3 +15,12 @@ $(function() {
 		});
 	});
 });
+
+$(function() {
+	$('#back').on('click', function() {
+		var href = $(this).attr('href');
+		$('.s12 .card').addClass('animated bounceOutRight');
+		setTimeout(function() {window.location = href}, 375);
+		return false;
+	});
+});
