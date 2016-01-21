@@ -226,6 +226,13 @@ footer img {
     margin-bottom: 30px;
 }
 
+.lesson .card-content > .card-section {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
 .lesson .card-content > p {
     font-size: 1.2em;
 }
@@ -241,7 +248,6 @@ footer img {
     max-width: 100%;
 }
 
-
 .lesson .card-content > p,
 .lesson img {
     margin-bottom: 20px;
@@ -253,6 +259,34 @@ footer img {
 
 .underline {
     text-decoration: underline;
+}
+
+.card-section .owl {
+    display: inline;
+    margin: 0;
+}
+
+.lesson .card-section + p {
+    margin-top: 20px;
+}
+
+.indent {
+    padding-left: 120px;
+}
+
+.blank {
+    display: inline-block;
+    min-width: 80px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.hideme {
+    opacity: 0;
+}
+
+.blank:hover > .hideme {
+    opacity: 1;
 }
 
 /* ----------------- GENERAL -----------------*/
