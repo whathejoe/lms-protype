@@ -385,6 +385,21 @@ p.long-division-answer {
     text-align: center;
 }
 
+.tri .s4 p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+table.centered {
+    font-size: 1.2em;
+}
+
+table.centered th,
+table.centered td {
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 /* ----------------- GENERAL -----------------*/
 
