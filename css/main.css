@@ -261,6 +261,10 @@ footer img {
     text-decoration: underline;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .card-section .owl {
     display: inline;
     margin: 0;
@@ -287,6 +291,14 @@ footer img {
 
 .blank:hover > .hideme {
     opacity: 1;
+}
+
+.text-blue {
+    color: #82b1ff;
+}
+
+.text-red {
+    color: #ff8a80;
 }
 
 /* ----------------- GENERAL -----------------*/
