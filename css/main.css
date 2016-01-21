@@ -401,6 +401,11 @@ table.centered td {
     padding-bottom: 5px;
 }
 
+.compare .s3 p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
 /* ----------------- GENERAL -----------------*/
 
 #buttonMenu img {
