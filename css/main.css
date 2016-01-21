@@ -340,6 +340,22 @@ footer img {
     color: #ff8a80;
 }
 
+.card .card.mini p {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.card-content.row {
+    margin-bottom: 0;
+}
+
+.asc-desc p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
 
 /* ----------------- GENERAL -----------------*/
 
