@@ -340,19 +340,6 @@ footer img {
     color: #ff8a80;
 }
 
-.card .material-icons {
-    position: relative;
-    top: 20px;
-    opacity: 0;
-    color: black;
-    transition: all ease 0.2s;
-}
-
-.answer:hover > .material-icons {
-    top: 0;
-    opacity: 1;
-    color: white;
-}
 
 /* ----------------- GENERAL -----------------*/
 
