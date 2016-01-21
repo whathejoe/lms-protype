@@ -374,6 +374,17 @@ footer img {
     text-align: center;
 }
 
+.row > .s8 > p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+p.long-division-answer {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
 
 /* ----------------- GENERAL -----------------*/
 
