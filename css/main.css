@@ -365,6 +365,21 @@ footer img {
     text-align: center;
 }
 
+.card .card.mini .steps p {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card .card.mini .steps p:last-child {
+    margin-bottom: 0;
+}
+
+.card .card.mini .steps .mini-card-header {
+    display: block;
+    text-align: center;
+}
+
 .card-content.row {
     margin-bottom: 0;
 }
