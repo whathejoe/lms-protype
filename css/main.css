@@ -433,6 +433,11 @@ div.card.mini > p.mini-card-header.underline {
     margin-bottom: 20px;
 }
 
+#center {
+    display: block;
+    text-align: center;
+}
+
 /* ----------------- GENERAL -----------------*/
 
 #buttonMenu img {
