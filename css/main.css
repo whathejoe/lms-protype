@@ -335,6 +335,10 @@ footer img {
     padding-left: 120px;
 }
 
+.small-indent {
+    padding-left: 14px;
+}
+
 .blank {
     display: inline-block;
     min-width: 80px;
@@ -423,6 +427,10 @@ table.centered td {
 .compare .s6 p, {
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+
+div.card.mini > p.mini-card-header.underline {
+    margin-bottom: 20px;
 }
 
 /* ----------------- GENERAL -----------------*/
