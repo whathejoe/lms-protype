@@ -264,14 +264,10 @@ footer img {
 
 .lesson {
     position: absolute;
-    height: 100%;
     width: 100%;
-    bottom: 0;
-    background-color: #fff; 
-    background-image: 
-        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-        linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
+    top: 0;
+    left: 0;
+    background: url(../img/bg_paper_repeat.jpg) left top;
 }
 
 .lesson .card-content {
