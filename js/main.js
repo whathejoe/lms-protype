@@ -6,6 +6,8 @@ $(function() {
 		return false;
 	});
 
+	$('#user').text(window.sessionStorage.name);
+
 	var animationName = 'animated bounce';
 	var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -14,6 +16,12 @@ $(function() {
 			$(this).removeClass(animationName);
 		});
 	});
+
+	$('a#start').on('click', function () {
+		window.sessionStorage.name = $('input#name').val();
+	});
+
+	
 });
 
 $(function() {
