@@ -401,7 +401,8 @@ table.centered td {
     padding-bottom: 5px;
 }
 
-.compare .s3 p {
+.compare .s3 p,
+.compare .s4 p {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
