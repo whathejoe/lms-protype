@@ -197,6 +197,16 @@ footer img {
     width: 100%;
 }
 
+/* ----------------- MAIN MENU -----------------*/
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 9px;
+}
+
 /* ----------------- TOPICS -----------------*/
 
 .topics {
@@ -452,7 +462,7 @@ div.card.mini > p.mini-card-header.underline {
 }
 
 
-
+/* clvillarealiv */
 
 
 
