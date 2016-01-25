@@ -7,7 +7,7 @@ app.directive('quiz', function(quizFactory) {
 		templateUrl: 'mc-template.html',
 		link: function(scope, elem, attrs) {
 			
-			scope.lesson = "Lesson 3";
+			scope.lesson = "Lesson 4";
 
 			scope.start = function() {
 				scope.id = 0;
@@ -63,28 +63,28 @@ app.directive('quiz', function(quizFactory) {
 app.factory('quizFactory', function() {
 	var questions = [
 		{
-			question: "Which number represents - Fifty-five thousand sixteen?",
-			options: ["55 016", "54 016", "55 060", "55 160"],
+			question : "Round off 56 456 to the nearest ten thousands.",
+			options: ["60 000", "70 000", "56 400", "56 000"],
 			answer: 0
 		},
 		{
-			question: "Which number represents - Sixty-seven thousand two hundred three?",
-			options: ["67 230", "67 203", "60 230", "67 200"],
-			answer: 1
+			question: "Round off 43 840 to the nearest hundreds.",
+			options: ["43 800", "43 000", "44 000", "43 900"],
+			answer: 0
 		},
 		{
-			question: "Which number represents - Eighty-four thousand nine?",
-			options: ["84 000", "80 000", "84 009", "90 009"],
-			answer: 2
-		},
-		{
-			question: "Which number represents - Fifty-seven thousand two?",
-			options: ["57 000", "7 000", "50 000", "57 002"],
+			question: "Round off 14 500 to the nearest thousands.",
+			options: ["13 500", "13 000", "14 000", "15 000"],
 			answer: 3
 		},
 		{
-			question: "Which number represents - One hundred thousand?",
-			options: ["1 000", "100 000", "10 000", "10"],
+			question: "Round off 98 600 to the nearest thousands.",
+			options: ["90 000", "99 000", "98 500", "90 600"],
+			answer: 1
+		},
+		{
+			question: "Round off 56 986 to the nearest ten thousands.",
+			options: ["50 000", "60 000", "70 000", "80 000"],
 			answer: 1
 		}
 	];
