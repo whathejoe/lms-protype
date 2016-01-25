@@ -7,7 +7,7 @@ app.directive('quiz', function(quizFactory) {
 		templateUrl: 'mc-template.html',
 		link: function(scope, elem, attrs) {
 			
-			scope.lesson = "Lesson 4";
+			scope.lesson = "Lesson 5";
 
 			scope.start = function() {
 				scope.id = 0;
@@ -63,29 +63,29 @@ app.directive('quiz', function(quizFactory) {
 app.factory('quizFactory', function() {
 	var questions = [
 		{
-			question : "Round off 56 456 to the nearest ten thousands.",
-			options: ["60 000", "70 000", "56 400", "56 000"],
+			question : "There were 30 123 people at the PBA Championship Games at the Arena Coliseum on Friday and 32 450 people on Sunday. On which day were there more people?",
+			options: ["Monday", "Sunday", "Saturday", "Friday"],
+			answer: 1
+		},
+		{
+			question: "At a certain game show contestant A won Php40, 000 while contestant B won Php50, 000. Who won the lesser amount of money?",
+			options: ["Contestant A", "Contestant B", "Contestant C", "Contestant D"],
 			answer: 0
 		},
 		{
-			question: "Round off 43 840 to the nearest hundreds.",
-			options: ["43 800", "43 000", "44 000", "43 900"],
+			question: "Which number is greater than 99 990?",
+			options: ["100 000", "90 000", "80 000", "70 000"],
 			answer: 0
 		},
 		{
-			question: "Round off 14 500 to the nearest thousands.",
-			options: ["13 500", "13 000", "14 000", "15 000"],
+			question: "Which number is less than 80 009?",
+			options: ["80 100", "90 300", "79 009", "80 010"],
+			answer: 2
+		},
+		{
+			question: "Which number is greater than 90 890?",
+			options: ["90 889", "90 790", "90 700", "90 900"],
 			answer: 3
-		},
-		{
-			question: "Round off 98 600 to the nearest thousands.",
-			options: ["90 000", "99 000", "98 500", "90 600"],
-			answer: 1
-		},
-		{
-			question: "Round off 56 986 to the nearest ten thousands.",
-			options: ["50 000", "60 000", "70 000", "80 000"],
-			answer: 1
 		}
 	];
 
