@@ -138,7 +138,7 @@ app.factory('quizFactory', function() {
 			question : "865 ÷ 9 = ?",
 			options: ["94", "92 r.5", "96 r. 1", " 99"],
 			answer: 2
-		},
+		}
 	];
 
 	return {
