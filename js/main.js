@@ -21,6 +21,8 @@ $(function() {
 		window.sessionStorage.name = $('input#name').val();
 	});
 
+	$('.modal-trigger').leanModal();
+
 	
 });
 
