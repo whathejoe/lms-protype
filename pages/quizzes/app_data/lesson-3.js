@@ -64,12 +64,12 @@ app.factory('quizFactory', function() {
 	var questions = [
 		{
 			question: "Which number represents - Fifty-five thousand sixteen?",
-			options: ["55 016", "54 016", "55 060", "54 016"],
+			options: ["55 016", "54 016", "55 060", "55 160"],
 			answer: 0
 		},
 		{
 			question: "Which number represents - Sixty-seven thousand two hundred three?",
-			options: ["67 203", "67 203", "67 203", "67 203"],
+			options: ["67 230", "67 203", "60 230", "67 200"],
 			answer: 1
 		},
 		{
@@ -83,7 +83,7 @@ app.factory('quizFactory', function() {
 			answer: 3
 		},
 		{
-			question: "Which number represents - ",
+			question: "Which number represents - One hundred thousand?",
 			options: ["1 000", "100 000", "10 000", "10"],
 			answer: 1
 		}
