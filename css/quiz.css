@@ -118,6 +118,10 @@ div.over .score {
 	margin-bottom: 16px;
 }
 
-#back {
+.back {
 	margin-left: 0;
+}
+
+.back:last-child {
+	margin-left: 10px;
 }
